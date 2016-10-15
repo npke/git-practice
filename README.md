@@ -34,32 +34,29 @@ $ git push --tags
 ```
 ### Branch
 
-```bash
-// Show all branch
-$ git branch -a 
+#### Show all branch
+`$ git branch -a`
 
-// Show remote branch
-$ git branch -r
+#### Show remote branch
+`$ git branch -r`
 
-// Create new Branch
-$ git branch <branch_name>
+#### Create new Branch
+`$ git branch <branch_name>`
 
-// Switch branch
-$ git checkout <branch_name>
+#### Switch branch
+`$ git checkout <branch_name>`
 
-// Create new and checkout
-$ git checkout -b <branch_name>
+#### Create new and checkout
+`$ git checkout -b <branch_name>`
 
-// Delete branch 
-$ git branch -d <branch_name>
+#### Delete branch 
+`$ git branch -d <branch_name>`
 
-// Pull from branch
-$ git pull <remote_name> <branch_name>
+#### Pull from branch
+`$ git pull <remote_name> <branch_name>`
 
-// Push branch to remote
-$ git push <remote_name> <branch_name>
-
-```
+#### Push branch to remote
+`$ git push <remote_name> <branch_name>`
 
 
 
