@@ -23,3 +23,11 @@ $ git commit -c ORIG_HEAD                                   (5)
 3. Make corrections to working tree files.
 4. `git add` anything that you want to include in your new commit.
 5. Commit the changes, reusing the old commit message. `reset` copied the old head to `.git/ORIG_HEAD`; commit with `-c ORIG_HEAD` will open an editor, which initially contains the log message from the old commit and allows you to edit it. If you do not need to edit the message, you could use the `-C` option.
+
+### Push tags to git server
+```bash
+// To push single tag
+$ git push origin <tag_name>
+
+// To push all tags
+$ git push --tags
