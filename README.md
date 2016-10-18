@@ -43,6 +43,10 @@ $ git push --tags
 #### Create new Branch
 `$ git branch <branch_name>`
 
+#### Create branch from commit 
+
+`$ git branch branchname <sha1-of-commit>`
+
 #### Switch branch
 `$ git checkout <branch_name>`
 
